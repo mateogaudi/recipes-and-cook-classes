@@ -13,11 +13,11 @@ body{
     justify-content: space-between;
 }
 .recipies-and-cook-lessons{
-    height:120vh;
-    background:blue;
     display:flex;
     justify-content: center;
     box-sizing: border-box;
+    background-image: url('../images/pexels-photo-3218467.jpeg');
+    background-position: center;
     padding:100px 0 150px;
 }
 .recipies-and-cook-lessons .main-largest-heading {
@@ -52,4 +52,12 @@ body{
     width: 24px;
     height: 2.38px;
     background-color: #fff;
+}
+.recipies-and-cook-lessons-item{
+    height:48px;
+    width:48px;
+    fill:#fff;
+    position:absolute;
+    left:48%;
+    bottom:-10%;
 }

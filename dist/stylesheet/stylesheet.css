@@ -2,43 +2,43 @@
 @import url(../../node_modules/hamburgers/dist/hamburgers.min.css);
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  src: url("../../fonts/Roboto/Roboto-Regular.ttf");
   font-weight: 400; }
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto/Roboto-Light.ttf");
+  src: url("../../fonts/Roboto/Roboto-Light.ttf");
   font-weight: 300; }
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
   font-weight: 500; }
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
   font-weight: 600; }
 @font-face {
   font-family: 'Roboto', sans-serif;
-  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  src: url("../../fonts/Roboto/Roboto-Bold.ttf");
   font-weight: 700; }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url("../fonts/Open-sans/OpenSans-Regular.ttf");
+  src: url("../../fonts/Open-sans/OpenSans-Regular.ttf");
   font-weight: 400; }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url("../fonts/Open-sans/OpenSans-Light.ttf");
+  src: url("../../fonts/Open-sans/OpenSans-Light.ttf");
   font-weight: 300; }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url("../fonts/Open-sans/OpenSans-SemiBold.ttf");
+  src: url("../../fonts/Open-sans/OpenSans-SemiBold.ttf");
   font-weight: 600; }
 @font-face {
   font-family: 'Playfair Display', sans-serif;
-  src: url("../fonts/Playfair Display/PlayfairDisplay-Bold.ttf");
+  src: url("../../fonts/Playfair Display/PlayfairDisplay-Bold.ttf");
   font-weight: 700; }
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url("../fonts/Lato/Lato-Regular.ttf");
+  src: url("../../fonts/Lato/Lato-Regular.ttf");
   font-weight: 400; }
 .main-largest-heading {
   font-size: 60px;
@@ -105,7 +105,8 @@ body {
   box-sizing: border-box;
   background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
   background-position: center;
-  padding: 100px 0 150px; }
+  padding: 100px 0 150px;
+  height: 100vh; }
 
 .recipies-and-cook-lessons .main-largest-heading {
   display: flex;
@@ -130,7 +131,7 @@ body {
 .hamburger {
   position: absolute;
   top: 0%;
-  left: 46%; }
+  left: 48%; }
 
 .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
   content: ' ';
@@ -141,8 +142,8 @@ body {
   width: 48px;
   fill: #fff;
   position: absolute;
-  left: 46%;
-  bottom: 10%; }
+  left: 48%;
+  bottom: 5%; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126

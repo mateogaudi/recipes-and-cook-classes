@@ -19,6 +19,7 @@ body{
     background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
     background-position: center;
     padding:100px 0 150px;
+    height:100vh;
 }
 .recipies-and-cook-lessons .main-largest-heading {
     display:flex;
@@ -43,7 +44,7 @@ body{
 .hamburger{
     position:absolute;
     top:0%;
-    left:46%;
+    left:48%;
 }
 .hamburger-inner , .hamburger-inner::after , .hamburger-inner::before{
     content:' ';
@@ -54,6 +55,6 @@ body{
     width:48px;
     fill:#fff;
     position:absolute;
-    left:46%;
-    bottom:10%;
+    left:48%;
+    bottom:5%;
 }

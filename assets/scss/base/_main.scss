@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    color:#111;
+    color:#111;    
 }
 .container{
     width:100%;
@@ -16,7 +16,7 @@ body{
     display:flex;
     justify-content: center;
     box-sizing: border-box;
-    background-image: url('../images/pexels-photo-3218467.jpeg');
+    background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
     background-position: center;
     padding:100px 0 150px;
 }
@@ -37,27 +37,23 @@ body{
 .recipies-and-cook-lessons-logo {
     display:flex;
     justify-content:center;
+    align-items: center;
     margin-bottom: 150px;
 }
-.hamburger-wrapper .hamburger{
-    top: 0%;
-    left:48%;
-    position:absolute; 
+.hamburger{
+    position:absolute;
+    top:0%;
+    left:46%;
 }
-.hamburger-wrapper .hamburger-box{
-    width: 24px;
-    height: 24px;
-}
-.hamburger-wrapper .hamburger-inner{
-    width: 24px;
-    height: 2.38px;
-    background-color: #fff;
+.hamburger-inner , .hamburger-inner::after , .hamburger-inner::before{
+    content:' ';
+    background: #fff;
 }
 .recipies-and-cook-lessons-item{
     height:48px;
     width:48px;
     fill:#fff;
     position:absolute;
-    left:48%;
-    bottom:-10%;
+    left:46%;
+    bottom:10%;
 }

@@ -9,8 +9,6 @@ body{
 .inner-wrapper{
     width:80%;
     margin:0 auto;
-    display:flex;
-    justify-content: space-between;
 }
 .recipies-and-cook-lessons{
     display:flex;
@@ -44,7 +42,7 @@ body{
 .hamburger{
     position:absolute;
     top:0%;
-    left:48%;
+    left:47%;
 }
 .hamburger-inner , .hamburger-inner::after , .hamburger-inner::before{
     content:' ';
@@ -52,9 +50,9 @@ body{
 }
 .recipies-and-cook-lessons-item{
     height:48px;
-    width:48px;
+    width:45px;
     fill:#fff;
     position:absolute;
-    left:48%;
+    left:47%;
     bottom:5%;
 }

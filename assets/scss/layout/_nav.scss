@@ -1,0 +1,17 @@
+.hamburger{
+    position:absolute;
+    top:0%;
+    left:47%;
+    .hamburger-inner , .hamburger-inner::after , .hamburger-inner::before{
+        content:' ';
+        background: #fff;
+    }
+}
+.recipies-and-cook-lessons-item{
+    height:48px;
+    width:45px;
+    fill:#fff;
+    position:absolute;
+    left:47%;
+    bottom:5%;
+}

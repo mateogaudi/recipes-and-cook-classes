@@ -71,7 +71,7 @@
 .medium-main-description {
   font-size: 16px;
   font-weight: 400;
-  color: #111;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   src: url("../../fonts/Lato/Lato-Regular.ttf"); }
 
@@ -199,6 +199,39 @@ table {
       .our-menu-wrapper .our-menu-boxes-wrapper .our-menu-box span {
         display: block;
         margin-bottom: 10px; }
+
+.ice-creams-and-drinks-wrapper {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../../assets/images/ed-min.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 80vh;
+  padding: 100px 0;
+  box-sizing: border-box; }
+  .ice-creams-and-drinks-wrapper .inner-wrapper {
+    display: flex;
+    justify-content: flex-end; }
+    .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap; }
+      .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper .ice-creams-and-drinks-box {
+        height: 46%;
+        width: 29.33%;
+        opacity: 0.3;
+        background: #000;
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column; }
+        .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper .ice-creams-and-drinks-box i {
+          height: 48px;
+          width: 48px;
+          fill: white;
+          margin-bottom: 20px; }
 
 .hamburger {
   position: absolute;

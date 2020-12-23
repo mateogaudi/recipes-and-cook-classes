@@ -1,8 +1,9 @@
 {
   "name": "recipes-and-cook-classes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +17,5 @@
     "url": "https://github.com/mateogaudi/recipes-and-cook-classes/issues"
   },
   "homepage": "https://github.com/mateogaudi/recipes-and-cook-classes#readme",
-  "devDependencies": {
-    "sass": "^1.30.0"
-  }
+  "description": ""
 }

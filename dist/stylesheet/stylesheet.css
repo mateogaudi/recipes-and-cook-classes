@@ -243,6 +243,21 @@ table {
           opacity: .5;
           position: absolute; }
 
+.sweets-foods-wrapper {
+  padding: 100px 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex; }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%; }
+    .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
+      height: 50%;
+      width: 33.33%; }
+
 .hamburger {
   position: absolute;
   top: 0%;

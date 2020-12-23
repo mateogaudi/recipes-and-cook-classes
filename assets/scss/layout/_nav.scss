@@ -1,8 +1,10 @@
 .hamburger{
     position:absolute;
     top:0%;
-    left:47%;
-    .hamburger-inner , .hamburger-inner::after , .hamburger-inner::before{
+    left:50%;
+    .hamburger-inner, 
+    .hamburger-inner::after,
+    .hamburger-inner::before{
         content:' ';
         background: #fff;
     }
@@ -12,6 +14,6 @@
     width:45px;
     fill:#fff;
     position:absolute;
-    left:47%;
+    left:50%;
     bottom:5%;
 }

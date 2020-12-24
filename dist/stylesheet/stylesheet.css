@@ -204,9 +204,10 @@ table {
         margin-bottom: 10px; }
 
 .hamburger {
-  position: absolute;
-  top: 0%;
-  left: 50%; }
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 100px; }
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::after,
   .hamburger .hamburger-inner::before {
@@ -214,41 +215,47 @@ table {
     background: #fff; }
 
 .recipies-and-cook-lessons-item {
-  height: 48px;
-  width: 45px;
+  height: 100%;
   fill: #fff;
-  position: absolute;
-  left: 50%;
-  bottom: 5%; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .recipies-and-cook-lessons {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
+  align-items: center;
   background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
   background-position: center;
+  height: 100vh;
   padding: 150px 0;
-  height: 100vh; }
-  .recipies-and-cook-lessons .recipies-and-cook-lessons-logo {
+  box-sizing: border-box; }
+  .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 100px; }
-  .recipies-and-cook-lessons .recipies-and-cook-lessons-heading {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     flex-flow: column; }
-    .recipies-and-cook-lessons .recipies-and-cook-lessons-heading span {
-      display: block;
-      margin-bottom: 5px; }
-    .recipies-and-cook-lessons .recipies-and-cook-lessons-heading .main-largest-heading {
+    .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px; }
+    .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading {
       display: flex;
       justify-content: flex-end;
-      margin-bottom: 20px;
-      color: #fff; }
-    .recipies-and-cook-lessons .recipies-and-cook-lessons-heading .main-description {
-      text-align: center;
-      color: #fff; }
+      align-items: center;
+      flex-flow: column; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading span {
+        display: block;
+        margin-bottom: 5px; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading .recipies-and-cook-lessons-heading-last-span {
+        margin-bottom: 50px; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading .main-largest-heading {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        color: #fff; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading .main-description {
+        text-align: center;
+        color: #fff; }
 
 /*# sourceMappingURL=stylesheet.css.map */

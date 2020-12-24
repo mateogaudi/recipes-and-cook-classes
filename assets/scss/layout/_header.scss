@@ -3,35 +3,44 @@
 .recipies-and-cook-lessons{
     display:flex;
     justify-content: center;
-    box-sizing: border-box;
+    align-items: center;
     background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
     background-position: center;
-    padding:150px 0;
     height:100vh;
-    .recipies-and-cook-lessons-logo {
-        display:flex;
-        justify-content:center;
-        align-items: center;
-        margin-bottom: 100px;
-    }
-    .recipies-and-cook-lessons-heading{
-        display:flex;
-        justify-content: flex-end;
-        align-items: center;
+    padding:150px 0;
+    box-sizing: border-box;
+    .recipies-and-cook-lessons-wrapper{
+        display: flex;
+        justify-content: center;
         flex-flow: column;
-    span{
-        display:block;
-        margin-bottom: 5px;
+        .recipies-and-cook-lessons-logo {
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        .recipies-and-cook-lessons-heading{
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-flow: column;
+            span{
+                display:block;
+                margin-bottom: 5px;
+            }
+            .recipies-and-cook-lessons-heading-last-span{
+                margin-bottom: 50px;
+            }
+            .main-largest-heading {
+                display:flex;
+                justify-content: flex-end;
+                margin-bottom: 20px;
+                color:#fff;
+            }
+            .main-description{
+                text-align:center;
+                color:#fff;
+            }
+        }     
     }
-    .main-largest-heading {
-        display:flex;
-        justify-content: flex-end;
-        margin-bottom: 20px;
-        color:#fff;
-    }
-    .main-description{
-        text-align:center;
-        color:#fff;
-    } 
-  }
 }

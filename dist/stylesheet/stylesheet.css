@@ -246,7 +246,7 @@ table {
 .sweets-foods-wrapper {
   padding: 100px 0;
   box-sizing: border-box;
-  height: 100vh;
+  height: 120vh;
   display: flex; }
   .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
     display: flex;
@@ -256,7 +256,6 @@ table {
     .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
       height: 50%;
       width: 33.33%;
-      background: violet;
       display: flex;
       flex-flow: column;
       justify-content: center;
@@ -264,9 +263,14 @@ table {
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3, .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4, .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
         margin-bottom: 20px; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4 {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        letter-spacing: 4px; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3 {
         text-align: center; }
+      .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h5 {
+        border-bottom: 2px solid #000;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
         display: block;
         text-align: center;

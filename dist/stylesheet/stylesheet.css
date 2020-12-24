@@ -268,9 +268,9 @@ table {
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3 {
         text-align: center; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h5 {
-        border-bottom: 2px solid #000;
         text-transform: uppercase;
-        letter-spacing: 2px; }
+        letter-spacing: 2px;
+        text-decoration: underline; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
         display: block;
         text-align: center;
@@ -278,6 +278,38 @@ table {
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box img {
         height: 100%;
         width: 100%; }
+
+.healthy-is-the-most-precious {
+  display: flex;
+  padding: 50px 0;
+  height: 80vh;
+  box-sizing: border-box; }
+  .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-flow: column; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h2 {
+        margin-bottom: 30px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h5 {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-top: 50px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box span {
+        display: block;
+        margin-bottom: 5px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box .healthy-is-the-most-precious-last-span {
+        margin-bottom: 30px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box img {
+        width: 100%;
+        height: 100%; }
 
 .hamburger {
   position: absolute;

@@ -18,5 +18,9 @@
   "homepage": "https://github.com/mateogaudi/recipes-and-cook-classes#readme",
   "devDependencies": {
     "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hamburgers": "^1.1.3"
   }
 }

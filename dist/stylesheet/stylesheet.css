@@ -203,25 +203,27 @@ table {
         display: block;
         margin-bottom: 10px; }
 
-nav {
-  transform: translateX(50%); }
-  nav .hamburger
-  .hamburger-inner,
-  nav .hamburger-inner::after,
-  nav .hamburger-inner::before {
-    content: ' ';
-    background: #fff; }
-
 .recipies-and-cook-lessons-item {
-  height: 100%;
   fill: #fff;
-  transform: translateX(50%); }
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute; }
 
-.recipies-and-cook-lessons {
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
+  left: 0; }
+  nav .hamburger .hamburger-inner,
+  nav .hamburger .hamburger-inner::after,
+  nav .hamburger .hamburger-inner::before {
+    content: " ";
+    background: #fff; }
+
+.recipies-and-cook-lessons {
+  background-image: url("../../assets/images/pexels-photo-3218467.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;

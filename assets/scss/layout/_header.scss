@@ -1,0 +1,45 @@
+@import "./nav";
+
+.recipies-and-cook-lessons{
+    background-image: url("../../assets/images/pexels-photo-3218467.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    padding:150px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    .recipies-and-cook-lessons-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        .recipies-and-cook-lessons-logo {
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        .recipies-and-cook-lessons-heading{
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-flow: column;
+            span{
+                display:block;
+                margin-bottom: 5px;
+            }
+            .recipies-and-cook-lessons-heading-last-span{
+                margin-bottom: 50px;
+            }
+            .main-largest-heading {
+                display:flex;
+                justify-content: flex-end;
+                margin-bottom: 20px;
+                color:#fff;
+            }
+            .main-description{
+                text-align:center;
+                color:#fff;
+            }
+        }     
+    }
+}

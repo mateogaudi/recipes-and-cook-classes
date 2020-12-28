@@ -203,33 +203,31 @@ table {
         display: block;
         margin-bottom: 10px; }
 
-.hamburger {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin-bottom: 100px; }
-  .hamburger .hamburger-inner,
-  .hamburger .hamburger-inner::after,
-  .hamburger .hamburger-inner::before {
+nav {
+  transform: translateX(50%); }
+  nav .hamburger
+  .hamburger-inner,
+  nav .hamburger-inner::after,
+  nav .hamburger-inner::before {
     content: ' ';
     background: #fff; }
 
 .recipies-and-cook-lessons-item {
   height: 100%;
   fill: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  transform: translateX(50%); }
 
 .recipies-and-cook-lessons {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   padding: 150px 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow: hidden; }
   .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper {
     display: flex;
     justify-content: center;

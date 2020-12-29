@@ -3,9 +3,7 @@
     justify-content: center;
     background-image: url("../../../assets/images/ed-min.jpg");
     background-position: center;
-    background-size:100%;
-    background-repeat:no-repeat ;
-    height:80vh;
+    background-repeat: no-repeat;
     padding:100px 0;
     box-sizing: border-box;
     .inner-wrapper{
@@ -16,9 +14,9 @@
             display: flex;
             flex-wrap: wrap;
             .ice-creams-and-drinks-box{
-                height:46%;
-                width:29.33%;
-                margin:2%;
+                height:200px;
+                width:175px;
+                margin:15px;
                 display:flex;
                 justify-content: center;
                 align-items: center;

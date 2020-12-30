@@ -8,7 +8,7 @@
   }
   .sweets-foods-box {
     height: 405px;
-    width: 380px;
+    width: 33.33%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -41,8 +41,8 @@
       margin-bottom: 5px;
     }
     img {
-      height:auto;
-      width:100%;
+      height:100%;
+      width:auto;
     }
   }
 }

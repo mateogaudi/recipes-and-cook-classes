@@ -161,42 +161,45 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.our-menu-wrapper {
+.our-menu-main-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   padding: 100px 0;
   box-sizing: border-box; }
-  .our-menu-wrapper .our-menu-heading {
+  .our-menu-main-wrapper .our-menu-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column; }
-    .our-menu-wrapper .our-menu-heading h2, .our-menu-wrapper .our-menu-heading h4 {
+    .our-menu-main-wrapper .our-menu-heading h2, .our-menu-main-wrapper .our-menu-heading h4 {
       margin-bottom: 20px; }
-    .our-menu-wrapper .our-menu-heading h4 {
+    .our-menu-main-wrapper .our-menu-heading h4 {
       letter-spacing: 4px;
       text-transform: uppercase; }
-  .our-menu-wrapper .our-menu-boxes-wrapper {
+  .our-menu-main-wrapper .our-menu-boxes-wrapper {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 75%; }
-    .our-menu-wrapper .our-menu-boxes-wrapper .our-menu-box {
+    .our-menu-main-wrapper .our-menu-boxes-wrapper .our-menu-box {
       height: 33.34%;
       width: 50%;
-      padding: 80px 0 0;
+      margin-top: 80px;
       display: flex;
       justify-content: center;
       flex-flow: column;
       align-items: center; }
-      .our-menu-wrapper .our-menu-boxes-wrapper .our-menu-box h4 {
+      .our-menu-main-wrapper .our-menu-boxes-wrapper .our-menu-box h4 {
         margin-bottom: 20px;
         letter-spacing: 4px;
         text-transform: uppercase; }
-      .our-menu-wrapper .our-menu-boxes-wrapper .our-menu-box p {
+      .our-menu-main-wrapper .our-menu-boxes-wrapper .our-menu-box p {
         display: flex;
         justify-content: center;
         flex-flow: column;
         align-items: center; }
-      .our-menu-wrapper .our-menu-boxes-wrapper .our-menu-box span {
+      .our-menu-main-wrapper .our-menu-boxes-wrapper .our-menu-box span {
         display: block;
         margin-bottom: 10px; }
 
@@ -282,50 +285,59 @@ table {
       height: auto;
       width: 100%; }
 
-.hamburger {
-  position: absolute;
-  top: 0%;
-  left: 47%; }
-  .hamburger .hamburger-inner, .hamburger .hamburger-inner::after, .hamburger .hamburger-inner::before {
-    content: ' ';
-    background: #fff; }
-
 .recipies-and-cook-lessons-item {
-  height: 48px;
-  width: 45px;
   fill: #fff;
-  position: absolute;
-  left: 47%;
-  bottom: 5%; }
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute; }
 
-.recipies-and-cook-lessons {
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-  background-image: url("../../../assets/images/pexels-photo-3218467.jpeg");
+  left: 0; }
+  nav .hamburger .hamburger-inner,
+  nav .hamburger .hamburger-inner::after,
+  nav .hamburger .hamburger-inner::before {
+    content: " ";
+    background: #fff; }
+
+.recipies-and-cook-lessons {
+  background-image: url("../../assets/images/pexels-photo-3218467.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
-  padding: 150px 0 150px;
-  height: 100vh; }
-  .recipies-and-cook-lessons .recipies-and-cook-lessons-logo {
+  height: 100vh;
+  padding: 150px 0;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 100px; }
-  .recipies-and-cook-lessons .recipies-and-cook-lessons-heading {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     flex-flow: column; }
-    .recipies-and-cook-lessons .recipies-and-cook-lessons-heading span {
-      display: block;
-      margin-bottom: 5px; }
-    .recipies-and-cook-lessons .recipies-and-cook-lessons-heading .main-largest-heading {
+    .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px; }
+    .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading {
       display: flex;
       justify-content: flex-end;
-      margin-bottom: 20px;
-      color: #fff; }
-    .recipies-and-cook-lessons .recipies-and-cook-lessons-heading .main-description {
-      text-align: center;
-      color: #fff; }
+      align-items: center;
+      flex-flow: column; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading span {
+        display: block;
+        margin-bottom: 5px; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading .recipies-and-cook-lessons-heading-last-span {
+        margin-bottom: 50px; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading .main-largest-heading {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        color: #fff; }
+      .recipies-and-cook-lessons .recipies-and-cook-lessons-wrapper .recipies-and-cook-lessons-heading .main-description {
+        text-align: center;
+        color: #fff; }
 
 /*# sourceMappingURL=stylesheet.css.map */

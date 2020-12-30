@@ -311,6 +311,43 @@ table {
         width: 100%;
         height: 100%; }
 
+.bakery-croissant {
+  display: flex;
+  padding: 100px 0;
+  box-sizing: border-box;
+  height: 100vh; }
+  .bakery-croissant .bakery-croissant-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      box-sizing: border-box; }
+      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box img {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%); }
+      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box span {
+        display: block;
+        margin-bottom: 5px; }
+      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box :nth-child(4) {
+        margin-bottom: 100px; }
+      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h4 {
+        margin-bottom: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase; }
+      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h2 {
+        margin-bottom: 20px; }
+
 .hamburger {
   position: absolute;
   top: 0%;

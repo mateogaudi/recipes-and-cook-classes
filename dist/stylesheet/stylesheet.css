@@ -352,6 +352,51 @@ table {
         width: 40px;
         margin-bottom: 20px; }
 
+.learn-cooking-online {
+  box-sizing: border-box;
+  padding: 50px 0; }
+  .learn-cooking-online .learn-cooking-online-heading {
+    text-align: center;
+    box-sizing: border-box; }
+    .learn-cooking-online .learn-cooking-online-heading p {
+      margin-bottom: 50px; }
+    .learn-cooking-online .learn-cooking-online-heading h2 {
+      margin-bottom: 20px; }
+  .learn-cooking-online .learn-cooking-online-photo-boxes-wrapper {
+    display: flex;
+    width: 100%;
+    height: 385px;
+    justify-content: center;
+    margin-bottom: 50px;
+    box-sizing: border-box; }
+    .learn-cooking-online .learn-cooking-online-photo-boxes-wrapper .learn-cooking-online-photo-item-box {
+      width: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .learn-cooking-online .learn-cooking-online-photo-boxes-wrapper svg {
+      height: 35px;
+      width: 35px;
+      fill: #fff;
+      background: #000;
+      border-radius: 50%; }
+    .learn-cooking-online .learn-cooking-online-photo-boxes-wrapper .learn-cooking-online-photo-box {
+      overflow: hidden;
+      width: 30%;
+      display: flex;
+      justify-content: center; }
+    .learn-cooking-online .learn-cooking-online-photo-boxes-wrapper img {
+      height: 100%;
+      width: auto; }
+      .learn-cooking-online .learn-cooking-online-photo-boxes-wrapper img :hover {
+        opacity: 0.3; }
+  .learn-cooking-online .learn-cooking-online-footer {
+    letter-spacing: 2px;
+    text-align: center; }
+  .learn-cooking-online a {
+    color: #000;
+    margin-bottom: 15px; }
+
 .hamburger {
   position: absolute;
   top: 0%;

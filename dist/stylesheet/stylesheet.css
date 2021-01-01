@@ -425,6 +425,20 @@ table {
         border: #666;
         margin: 0 2px; }
 
+.baked-chicken-boxes-wrapper {
+  display: flex; }
+  .baked-chicken-boxes-wrapper .baked-chicken-box {
+    height: 510px;
+    width: 33%;
+    overflow: hidden;
+    position: relative; }
+  .baked-chicken-boxes-wrapper img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%; }
+
 .hamburger {
   position: absolute;
   top: 0%;

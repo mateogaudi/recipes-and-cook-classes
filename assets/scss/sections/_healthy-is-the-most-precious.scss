@@ -1,0 +1,41 @@
+.healthy-is-the-most-precious{
+    display: flex;
+    padding:100px 0;
+    box-sizing: border-box;
+    .healthy-is-the-most-precious-boxes-wrapper{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        .healthy-is-the-most-precious-box{
+            width:50%;
+            height:570px;
+            display:flex;
+            justify-content: center;
+            flex-flow: column;
+            overflow: hidden;
+            h2{
+                margin-bottom:30px;
+            }
+            h5{
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                text-decoration:underline;
+                margin-top:50px;
+                a{
+                    color:#000;
+                }
+            }
+            span{
+                display:block;
+                margin-bottom: 10px;
+            }
+            .healthy-is-the-most-precious-last-span{
+                margin-bottom:30px;
+            }
+            img{
+                width:100%;
+                height:auto;
+            }
+        }
+    }
+}

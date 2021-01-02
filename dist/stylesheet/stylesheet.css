@@ -354,6 +354,87 @@ table {
   height: auto;
 }
 
+.healthy-is-the-most-precious {
+  display: flex;
+<<<<<<< HEAD
+  padding: 100px 0;
+  box-sizing: border-box; }
+  .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box {
+      width: 50%;
+      height: 570px;
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      overflow: hidden; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h2 {
+        margin-bottom: 30px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h5 {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-top: 50px; }
+        .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h5 a {
+          color: #000; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box span {
+        display: block;
+        margin-bottom: 10px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box .healthy-is-the-most-precious-last-span {
+        margin-bottom: 30px; }
+      .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box img {
+        width: 100%;
+        height: auto; }
+
+.hamburger {
+  position: absolute;
+  top: 0%;
+  left: 47%; }
+  .hamburger .hamburger-inner, .hamburger .hamburger-inner::after, .hamburger .hamburger-inner::before {
+    content: ' ';
+    background: #fff; }
+=======
+  padding: 50px 0;
+  height: 80vh;
+  box-sizing: border-box;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h2 {
+  margin-bottom: 30px;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box span {
+  display: block;
+  margin-bottom: 10px;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box .healthy-is-the-most-precious-last-span {
+  margin-bottom: 30px;
+}
+.healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box img {
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> dedb973f267bf45c7b436ac6c892c304499ec0e5
+
 .recipies-and-cook-lessons-item {
   fill: #fff;
   transform: translateX(-50%);

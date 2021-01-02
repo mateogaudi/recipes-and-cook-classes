@@ -461,6 +461,17 @@ table {
     .organic-produce-wrapper .organic-produce-social-media-boxes-wrapper :nth-child(3) {
       margin: 0; }
 
+footer {
+  background: #333;
+  color: #fff; }
+  footer .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    width: 100%; }
+  footer span {
+    display: block; }
+
 .hamburger {
   position: absolute;
   top: 0%;

@@ -313,38 +313,32 @@ table {
 
 .bakery-croissant {
   display: flex;
-  padding: 100px 0;
-  box-sizing: border-box;
-  height: 100vh; }
+  padding: 100px 0; }
   .bakery-croissant .bakery-croissant-boxes-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%; }
+    align-items: center; }
     .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box {
       width: 50%;
-      height: 100%;
+      height: 585px;
       display: flex;
       flex-flow: column;
       justify-content: center;
-      overflow: hidden;
-      position: relative;
-      box-sizing: border-box; }
+      overflow: hidden; }
       .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box img {
         height: auto;
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-60%); }
-      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box span {
+        width: 100%; }
+      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box p span {
         display: block;
         margin-bottom: 5px; }
-      .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box :nth-child(4) {
-        margin-bottom: 100px; }
+        .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box p span:nth-child(4) {
+          margin-bottom: 100px; }
       .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h4 {
         margin-bottom: 20px;
         letter-spacing: 4px;
         text-transform: uppercase; }
+        .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h4:nth-child(5) {
+          margin-bottom: 0; }
       .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h2 {
         margin-bottom: 20px; }
       .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box svg {

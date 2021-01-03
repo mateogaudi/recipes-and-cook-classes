@@ -1,13 +1,27 @@
 footer{
     background:#333;
-    color:#fff;
     .footer-wrapper{
-        display:flex;
-        justify-content: center;
         padding:50px 0;
-        width: 100%;
+        .footer-heading{
+            p{
+                color:#fff;
+                text-align: center;
+                span{
+                    margin-bottom:10px;
+                    display: block;
+                    &:nth-child(2){
+                        margin-bottom: 100px;
+                    }
+                }
+            }
+        }    
     }
-    span{
-        display: block;
+    .footer-item{
+        display: flex;
+        justify-content: center;
+       a{
+           margin:0;
+           color:#adcce9;
+       }
     }
 }

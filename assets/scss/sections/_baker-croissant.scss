@@ -17,14 +17,15 @@
                 width:100%;
             }
             p{
+                margin-bottom:100px;
+            }
             span{
                 display:block;
                 margin-bottom:5px;
                 &:nth-child(4){
-                    margin-bottom:100px;
-                    }   
+                    margin-bottom: 0;
                 }
-            }
+                }
             h4{
                 margin-bottom: 20px;
                 letter-spacing: 4px;

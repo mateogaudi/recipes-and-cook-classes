@@ -14,15 +14,16 @@
             margin-bottom: 20px;
         }
     }
-    .learn-cooking-online-slider-wrapper{
-        display:flex;
-        height:385px;
-        width:600%;
-        overflow: hidden;
-        position:relative;
-        img{
-            height:auto;
-            width:295px;
+    .content-wrapper{
+        width:200%;
+        .slider{
+            width:100%;
+            overflow: hidden;
+            height:355px;
+            .slider-photo{
+                float:left;
+                height:355px;
+            }
         }
     }
     .learn-cooking-online-footer{

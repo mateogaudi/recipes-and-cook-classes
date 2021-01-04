@@ -364,15 +364,15 @@ table {
       margin-bottom: 50px; }
     .learn-cooking-online .learn-cooking-online-heading h2 {
       margin-bottom: 20px; }
-  .learn-cooking-online .learn-cooking-online-slider-wrapper {
-    display: flex;
-    height: 385px;
-    width: 600%;
-    overflow: hidden;
-    position: relative; }
-    .learn-cooking-online .learn-cooking-online-slider-wrapper img {
-      height: auto;
-      width: 295px; }
+  .learn-cooking-online .content-wrapper {
+    width: 200%; }
+    .learn-cooking-online .content-wrapper .slider {
+      width: 100%;
+      overflow: hidden;
+      height: 355px; }
+      .learn-cooking-online .content-wrapper .slider .slider-photo {
+        float: left;
+        height: 355px; }
   .learn-cooking-online .learn-cooking-online-footer {
     letter-spacing: 2px;
     text-align: center; }

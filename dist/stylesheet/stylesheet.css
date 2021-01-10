@@ -364,15 +364,6 @@ table {
       margin-bottom: 50px; }
     .learn-cooking-online .learn-cooking-online-heading h2 {
       margin-bottom: 20px; }
-  .learn-cooking-online .content-wrapper {
-    width: 200%; }
-    .learn-cooking-online .content-wrapper .slider {
-      width: 100%;
-      overflow: hidden;
-      height: 355px; }
-      .learn-cooking-online .content-wrapper .slider .slider-photo {
-        float: left;
-        height: 355px; }
   .learn-cooking-online .learn-cooking-online-footer {
     letter-spacing: 2px;
     text-align: center; }
@@ -384,6 +375,23 @@ table {
       display: flex;
       justify-content: center;
       margin-bottom: 30px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.carousel-container {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #000;
+  overflow: hidden;
+  position: relative; }
+
+.carousel-slide {
+  display: flex;
+  width: 600%;
+  height: 300px; }
 
 .hamburger {
   position: absolute;

@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.carousel-container{
+    margin:auto;
+    width:885px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-slide{
+    display: flex;
+    height:335px;
+    width:885px;
+    margin-bottom: 50px;
+}
+img{
+    width:295px;
+    height:335px;
+    margin-right:10px;
+}
+#prevBtn{
+   
+}
+#nextBtn{
+    
+}

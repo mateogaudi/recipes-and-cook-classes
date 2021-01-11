@@ -383,15 +383,20 @@ table {
 
 .carousel-container {
   margin: auto;
-  width: 60%;
-  border: 5px solid #000;
-  overflow: hidden;
-  position: relative; }
+  width: 885px;
+  position: relative;
+  overflow: hidden; }
 
 .carousel-slide {
   display: flex;
-  width: 600%;
-  height: 300px; }
+  height: 335px;
+  width: 885px;
+  margin-bottom: 50px; }
+
+img {
+  width: 295px;
+  height: 335px;
+  margin-right: 10px; }
 
 .hamburger {
   position: absolute;

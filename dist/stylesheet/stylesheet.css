@@ -380,23 +380,68 @@ table {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
-
-.carousel-container {
-  margin: auto;
-  width: 885px;
-  position: relative;
-  overflow: hidden; }
-
-.carousel-slide {
-  display: flex;
-  height: 335px;
-  width: 885px;
-  margin-bottom: 50px; }
-
-img {
-  width: 295px;
-  height: 335px;
-  margin-right: 10px; }
+  * .carousel-container {
+    height: 355px;
+    margin: auto;
+    width: 885px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px; }
+    * .carousel-container .prevbtn {
+      outline: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0px;
+      background: #000;
+      z-index: 10;
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      border: #000;
+      cursor: pointer; }
+    * .carousel-container .prevbtn::before {
+      content: ' ';
+      position: absolute;
+      left: 20px;
+      top: 14px;
+      border: 2px solid #fff;
+      border-bottom: 0;
+      border-right: 0;
+      height: 26px;
+      width: 26px;
+      transform: rotate(-45deg); }
+    * .carousel-container .nextbtn {
+      outline: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0px;
+      background: #000;
+      z-index: 10;
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      border: #000;
+      cursor: pointer; }
+    * .carousel-container .nextbtn::before {
+      content: ' ';
+      position: absolute;
+      right: 20px;
+      top: 14px;
+      border: 2px solid #fff;
+      border-bottom: 0;
+      border-right: 0;
+      height: 26px;
+      width: 26px;
+      transform: rotate(135deg); }
+    * .carousel-container .carousel-slide {
+      display: flex;
+      height: 335px;
+      width: 885px; }
+      * .carousel-container .carousel-slide img {
+        width: 295px;
+        height: 355px; }
 
 .hamburger {
   position: absolute;

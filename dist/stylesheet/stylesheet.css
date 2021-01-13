@@ -356,7 +356,8 @@ table {
   box-sizing: border-box;
   padding: 50px 0; }
   .learn-cooking-online .inner-wrapper {
-    overflow: hidden; }
+    overflow: hidden;
+    margin: auto; }
   .learn-cooking-online .learn-cooking-online-heading {
     text-align: center;
     box-sizing: border-box; }
@@ -364,6 +365,79 @@ table {
       margin-bottom: 50px; }
     .learn-cooking-online .learn-cooking-online-heading h2 {
       margin-bottom: 20px; }
+  .learn-cooking-online * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+    .learn-cooking-online * .carousel-container {
+      height: 355px;
+      margin: auto;
+      width: 885px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 50px; }
+      .learn-cooking-online * .carousel-container .prevbtn {
+        outline: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+        background: #000;
+        z-index: 10;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        border: #000;
+        cursor: pointer; }
+      .learn-cooking-online * .carousel-container .prevbtn::before {
+        content: ' ';
+        position: absolute;
+        left: 20px;
+        top: 14px;
+        border: 2px solid #fff;
+        border-bottom: 0;
+        border-right: 0;
+        height: 26px;
+        width: 26px;
+        transform: rotate(-45deg); }
+      .learn-cooking-online * .carousel-container .prevbtn:hover {
+        opacity: 0.4;
+        background: #222; }
+      .learn-cooking-online * .carousel-container .nextbtn {
+        outline: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        background: #000;
+        z-index: 10;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        border: #000;
+        cursor: pointer; }
+      .learn-cooking-online * .carousel-container .nextbtn::before {
+        content: ' ';
+        position: absolute;
+        right: 20px;
+        top: 14px;
+        border: 2px solid #fff;
+        border-bottom: 0;
+        border-right: 0;
+        height: 26px;
+        width: 26px;
+        transform: rotate(135deg); }
+      .learn-cooking-online * .carousel-container .nextbtn:hover {
+        opacity: 0.4;
+        background: #222; }
+      .learn-cooking-online * .carousel-container .carousel-slide {
+        display: flex;
+        position: relative; }
+        .learn-cooking-online * .carousel-container .carousel-slide img {
+          width: 295px;
+          height: auto;
+          box-sizing: border-box;
+          padding: 0 5px; }
   .learn-cooking-online .learn-cooking-online-footer {
     letter-spacing: 2px;
     text-align: center; }
@@ -375,73 +449,6 @@ table {
       display: flex;
       justify-content: center;
       margin-bottom: 30px; }
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-  * .carousel-container {
-    height: 355px;
-    margin: auto;
-    width: 885px;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 50px; }
-    * .carousel-container .prevbtn {
-      outline: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 0px;
-      background: #000;
-      z-index: 10;
-      height: 55px;
-      width: 55px;
-      border-radius: 50%;
-      border: #000;
-      cursor: pointer; }
-    * .carousel-container .prevbtn::before {
-      content: ' ';
-      position: absolute;
-      left: 20px;
-      top: 14px;
-      border: 2px solid #fff;
-      border-bottom: 0;
-      border-right: 0;
-      height: 26px;
-      width: 26px;
-      transform: rotate(-45deg); }
-    * .carousel-container .nextbtn {
-      outline: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 0px;
-      background: #000;
-      z-index: 10;
-      height: 55px;
-      width: 55px;
-      border-radius: 50%;
-      border: #000;
-      cursor: pointer; }
-    * .carousel-container .nextbtn::before {
-      content: ' ';
-      position: absolute;
-      right: 20px;
-      top: 14px;
-      border: 2px solid #fff;
-      border-bottom: 0;
-      border-right: 0;
-      height: 26px;
-      width: 26px;
-      transform: rotate(135deg); }
-    * .carousel-container .carousel-slide {
-      display: flex;
-      height: 335px;
-      width: 885px; }
-      * .carousel-container .carousel-slide img {
-        width: 295px;
-        height: 355px; }
 
 .hamburger {
   position: absolute;

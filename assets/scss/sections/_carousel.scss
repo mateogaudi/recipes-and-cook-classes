@@ -1,4 +1,4 @@
-*{
+*{ //To jest wersja próbna zostawiam ją do czasu aż zostanie slider zostanie sprawdzony i poprawiony//
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -35,12 +35,16 @@
             width:26px;
             transform: rotate(-45deg);
         }
+        .prevbtn:hover{
+            opacity: 0.4;
+            background: #222;
+        }
         .nextbtn{
             outline: 0;
-            position:absolute;
+            position:absolute ;
             top:50%;
             transform: translateY(-50%);
-            right:0px;
+            right:0;
             background: #000;
             z-index: 10;
             height:55px;
@@ -61,13 +65,19 @@
             width:26px;
             transform: rotate(135deg);
         }
+        .nextbtn:hover{
+            opacity:0.4;
+            background:#222;
+        }
         .carousel-slide{
             display: flex;
-            height:335px;
+            height:355px;
             width:885px;
             img{
                 width:295px;
                 height:355px;
+                box-sizing: border-box;
+                padding:0 5px;
             }
         }
     }

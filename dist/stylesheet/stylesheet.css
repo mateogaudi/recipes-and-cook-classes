@@ -606,6 +606,32 @@ table {
   margin: 0;
 }
 
+footer {
+  background: #333;
+}
+footer .footer-wrapper {
+  padding: 50px 0;
+}
+footer .footer-wrapper .footer-heading p {
+  color: #fff;
+  text-align: center;
+}
+footer .footer-wrapper .footer-heading p span {
+  margin-bottom: 10px;
+  display: block;
+}
+footer .footer-wrapper .footer-heading p span:nth-child(2) {
+  margin-bottom: 100px;
+}
+footer .footer-item {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-item a {
+  margin: 0;
+  color: #adcce9;
+}
+
 .recipies-and-cook-lessons-item {
   fill: #fff;
   transform: translateX(-50%);

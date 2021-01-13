@@ -1,0 +1,16 @@
+.baked-chicken-boxes-wrapper{
+    display:flex;
+    .baked-chicken-box{
+        height:510px;
+        width:33%;
+        overflow: hidden;
+        position:relative;
+    }
+    img{
+        height:auto;
+        width:100%;
+        position:absolute;
+        transform:translateY(-50%);
+        top:50%;
+    }
+}

@@ -28,7 +28,7 @@
                 margin-bottom: 5px;
             }
             .recipies-and-cook-lessons-heading-last-span{
-                margin-bottom: 50px;
+                margin-bottom: 0px;
             }
             .main-largest-heading {
                 display:flex;
@@ -42,4 +42,147 @@
             }
         }     
     }
+}
+@media (min-width:1660px){
+    .recipies-and-cook-lessons{
+        padding:150px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+                margin-bottom: 150px;
+            }
+            .recipies-and-cook-lessons-heading{
+                span{
+                    font-size:24px;
+                    margin-bottom: 15px;
+                }
+                .main-largest-heading{
+                    font-size:80px;
+                    margin-bottom: 50px;
+                    
+                }
+            }
+        }
+    }
+}
+@media (min-width:1280px){
+    .recipies-and-cook-lessons{
+        padding:150px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+               margin-bottom: 75px;
+            }
+            .recipies-and-cook-lessons-heading{
+                span{
+                    font-size:20px;
+                    margin-bottom: 10px;
+                }
+                .main-largest-heading{
+                    font-size:60px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1074px){
+    .recipies-and-cook-lessons{
+        padding:150px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+                margin-bottom: 75px;
+            }
+            .recipies-and-cook-lessons-heading{
+                .main-largest-heading{
+                    text-align: center;
+                    font-size: 55px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1024px){
+    .recipies-and-cook-lessons{
+        padding:150px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+                margin-bottom: 75px;
+            }
+            .recipies-and-cook-lessons-heading{
+                .main-largest-heading{
+                    text-align: center;
+                    font-size: 55px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    .recipies-and-cook-lessons{
+        padding:75px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+                margin-bottom: 50px;
+            }
+            .recipies-and-cook-lessons-heading{
+                span{
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+                .main-largest-heading{
+                    text-align: center;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:530px) {
+    .recipies-and-cook-lessons{
+        padding:75px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+                margin-bottom: 50px;
+            }
+            .recipies-and-cook-lessons-heading{
+                span{
+                    font-size: 12px;
+                }
+                .main-largest-heading{
+                    text-align: center;
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:320px){
+    .recipies-and-cook-lessons{
+        padding:50px 0;
+        .recipies-and-cook-lessons-wrapper{
+            .recipies-and-cook-lessons-logo{
+                margin-bottom: 50px;
+                img{
+                    width:150px;
+                    height:100px;
+                }
+            }
+            .recipies-and-cook-lessons-heading{
+                span{
+                    font-size: 16px;
+                    text-align: center;
+                    margin-bottom: 0;
+                }
+                .main-largest-heading{
+                    font-size:20px;
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+            }
+            .recipies-and-cook-lessons-item{
+                bottom:15px;
+            }
+        }
+
+    }   
 }

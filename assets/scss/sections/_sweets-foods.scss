@@ -45,3 +45,42 @@
     }
   }
 }
+@media (min-width:768px) and (orientation:portrait) and (max-width:1160px){
+  .sweets-foods-wrapper {
+    .sweets-foods-boxes-wrapper {
+      display:flex;
+      flex-flow: column;
+      height:100%;
+      width: 100%;
+  .sweets-foods-box {
+    height:100%;
+    width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+        }
+      }
+    }
+  }
+}
+@media (min-width:530px) and (orientation:portrait) and (max-width:767px){
+
+}
+@media (min-width:320px) and (orientation:portrait) and (max-width:529px){
+  .sweets-foods-wrapper {
+  .sweets-foods-boxes-wrapper {
+    display:flex;
+    flex-flow: column;
+    height:100%;
+    width: 100%;
+    .sweets-foods-box {
+      height: 405px;
+      width: 100%;
+      img {
+        width: 100%;
+        height: auto;
+        }
+      }
+    }
+  }
+}

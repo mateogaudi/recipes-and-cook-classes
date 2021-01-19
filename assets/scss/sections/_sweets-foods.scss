@@ -4,14 +4,21 @@
   .sweets-foods-boxes-wrapper {
     display:flex;
     flex-wrap: wrap;
-    .sweets-foods-box {
+    .sweets-foods-box-images,
+    .sweets-foods-box
+    {
       height: 405px;
       width: 33.33%;
       display: flex;
       flex-flow: column;
       justify-content: center;
       align-items: center;
+      display: flex;
       overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
       h3,
       h4,
       p {
@@ -38,10 +45,6 @@
         text-align: center;
         margin-bottom: 5px;
       }
-      img {
-        width: 100%;
-        height: auto;
-      }
     }
   }
 }
@@ -49,38 +52,115 @@
   .sweets-foods-wrapper {
     .sweets-foods-boxes-wrapper {
       display:flex;
+      flex-wrap: wrap;
+      .sweets-foods-box-images{
+        height: 405px;
+        width: 33%;
+        img{
+          height:405px;
+          width: 100%;
+        }
+      }
+      .sweets-foods-box {
+        height: 405px;
+        width:33%;
+        h3,
+        h4,
+        p {
+          margin-bottom: 20px;
+        }
+        
+        span {
+          display: block;
+          text-align: center;
+          margin-bottom: 5px;
+          }
+        }
+      }
+    } 
+}
+@media (min-width:530px) and (orientation:portrait) and (max-width:767px){
+  .sweets-foods-wrapper {
+    .sweets-foods-boxes-wrapper {
+      display:flex;
       flex-flow: column;
-      height:100%;
-      width: 100%;
-  .sweets-foods-box {
-    height:100%;
-    width: 100%;
-  img {
-    width: 100%;
-    height: auto;
+      .sweets-foods-box-images{
+        height: 405px;
+        width: 100%;
+      }
+      .sweets-foods-box {
+        height: 255px;
+        width: 100%;
+        h3,
+        h4,
+        p {
+          margin-bottom: 10px;
+        }
+       
+        span {
+          display: block;
+          text-align: center;
+          margin-bottom: 4px;
+          }
         }
       }
     }
-  }
-}
-@media (min-width:530px) and (orientation:portrait) and (max-width:767px){
-
 }
 @media (min-width:320px) and (orientation:portrait) and (max-width:529px){
   .sweets-foods-wrapper {
   .sweets-foods-boxes-wrapper {
     display:flex;
     flex-flow: column;
-    height:100%;
-    width: 100%;
-    .sweets-foods-box {
+    .sweets-foods-box-images{
       height: 405px;
       width: 100%;
-      img {
-        width: 100%;
-        height: auto;
+    }
+    .sweets-foods-box {
+      height: 255px;
+      width: 100%;
+      h3,
+      h4,
+      p {
+        margin-bottom: 10px;
+      }
+      span {
+        display: block;
+        text-align: center;
+        margin-bottom: 4px;
         }
       }
     }
   }
 }
+@media (orientation:portrait) and (max-width:319px){
+  .sweets-foods-wrapper {
+    .sweets-foods-boxes-wrapper {
+      display:flex;
+      flex-flow: column;
+      .sweets-foods-box-images{
+        height: 405px;
+        width: 100%;
+      }
+      .sweets-foods-box {
+        height: 255px;
+        width: 100%;
+        h3,
+        h4,
+        p {
+          margin-bottom: 10px;
+        }
+        a{
+          font-size: 12px;
+        }
+        span {
+          display: block;
+          text-align: center;
+          margin-bottom: 2px;
+          font-size:14px ;
+          }
+        }
+      }
+    }
+}
+
+

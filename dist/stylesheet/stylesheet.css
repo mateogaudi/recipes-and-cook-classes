@@ -327,7 +327,7 @@ table {
         width: 100%;
         height: auto; }
 
-@media (min-width: 768px) and (orientation: portrait) and (max-width: 1144px) {
+@media (max-width: 1144px) {
   .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box p {
     display: flex;
     justify-content: center;
@@ -337,7 +337,7 @@ table {
   .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box img {
     width: 100%;
     height: 570px; } }
-@media (min-width: 530px) and (orientation: portrait) and (max-width: 767px) {
+@media (max-width: 767px) {
   .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper {
     display: block; }
     .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box {
@@ -345,7 +345,7 @@ table {
       .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box img {
         width: 100%;
         height: auto; } }
-@media (min-width: 320px) and (orientation: portrait) and (max-width: 529px) {
+@media (max-width: 530px) {
   .healthy-is-the-most-precious {
     padding: 0; }
     .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper {
@@ -362,7 +362,7 @@ table {
         .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper .healthy-is-the-most-precious-box h2 {
           margin-bottom: 20px;
           font-size: 36px; } }
-@media (max-width: 319px) and (orientation: portrait) {
+@media (max-width: 400px) {
   .healthy-is-the-most-precious {
     padding: 0; }
     .healthy-is-the-most-precious .healthy-is-the-most-precious-boxes-wrapper {

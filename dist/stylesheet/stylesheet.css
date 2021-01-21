@@ -305,7 +305,7 @@ table {
         text-align: center;
         margin-bottom: 5px; }
 
-@media (min-width: 768px) and (orientation: portrait) and (max-width: 1160px) {
+@media (max-width: 1160px) {
   .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
     display: flex;
     flex-wrap: wrap; }
@@ -326,7 +326,7 @@ table {
         display: block;
         text-align: center;
         margin-bottom: 5px; } }
-@media (min-width: 530px) and (orientation: portrait) and (max-width: 767px) {
+@media (max-width: 768px) {
   .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
     display: flex;
     flex-flow: column; }
@@ -341,10 +341,8 @@ table {
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
         margin-bottom: 10px; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
-        display: block;
-        text-align: center;
         margin-bottom: 4px; } }
-@media (min-width: 320px) and (orientation: portrait) and (max-width: 529px) {
+@media (max-width: 529px) {
   .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
     display: flex;
     flex-flow: column; }
@@ -359,10 +357,8 @@ table {
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
         margin-bottom: 10px; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
-        display: block;
-        text-align: center;
-        margin-bottom: 4px; } }
-@media (orientation: portrait) and (max-width: 319px) {
+        display: block; } }
+@media (max-width: 400px) {
   .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
     display: flex;
     flex-flow: column; }
@@ -379,8 +375,6 @@ table {
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box a {
         font-size: 12px; }
       .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
-        display: block;
-        text-align: center;
         margin-bottom: 2px;
         font-size: 14px; } }
 .healthy-is-the-most-precious {

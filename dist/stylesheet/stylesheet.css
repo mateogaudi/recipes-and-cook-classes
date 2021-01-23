@@ -402,7 +402,7 @@ table {
         border: #000;
         cursor: pointer; }
       .learn-cooking-online * .carousel-container .prevbtn::before {
-        content: ' ';
+        content: " ";
         position: absolute;
         left: 20px;
         top: 14px;
@@ -429,7 +429,7 @@ table {
         border: #000;
         cursor: pointer; }
       .learn-cooking-online * .carousel-container .nextbtn::before {
-        content: ' ';
+        content: " ";
         position: absolute;
         right: 20px;
         top: 14px;
@@ -462,6 +462,51 @@ table {
       justify-content: center;
       margin-bottom: 30px; }
 
+@media (max-width: 1160px) {
+  .learn-cooking-online .inner-wrapper {
+    overflow: hidden; }
+  .learn-cooking-online * .carousel-container {
+    height: 355px;
+    width: 885px; }
+  .learn-cooking-online * img {
+    width: 295px;
+    height: auto; } }
+@media (max-width: 1100px) {
+  .learn-cooking-online * .carousel-container {
+    height: 355px;
+    width: 590px; }
+    .learn-cooking-online * .carousel-container .carousel-slide {
+      width: 590px; }
+      .learn-cooking-online * .carousel-container .carousel-slide img {
+        width: 295px;
+        height: auto; } }
+@media (max-width: 750px) {
+  .learn-cooking-online .carousel-container {
+    height: 355px;
+    width: 500px; }
+    .learn-cooking-online .carousel-container .carousel-slide {
+      width: 500px; }
+      .learn-cooking-online .carousel-container .carousel-slide img {
+        width: 250px;
+        height: auto; } }
+@media (max-width: 630px) {
+  .learn-cooking-online .carousel-container {
+    height: 450px;
+    width: 100%; }
+    .learn-cooking-online .carousel-container .carousel-slide {
+      width: 100%; }
+      .learn-cooking-online .carousel-container .carousel-slide img {
+        width: 100%;
+        height: 450px; } }
+@media (max-width: 345px) {
+  .learn-cooking-online .carousel-container {
+    height: 355px;
+    width: 100%; }
+    .learn-cooking-online .carousel-container .carousel-slide {
+      width: 100%; }
+      .learn-cooking-online .carousel-container .carousel-slide img {
+        width: 100%;
+        height: auto; } }
 .baked-chicken-boxes-wrapper {
   display: flex; }
   .baked-chicken-boxes-wrapper .baked-chicken-box {

@@ -1,45 +1,135 @@
 @import "./nav";
 
-.recipies-and-cook-lessons{
-    background-image: url("../../assets/images/pexels-photo-3218467.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height:100vh;
-    padding:150px 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    .recipies-and-cook-lessons-wrapper{
+.recipies-and-cook-lessons {
+  background-image: url("../../assets/images/pexels-photo-3218467.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px 0;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  .recipies-and-cook-lessons-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    .recipies-and-cook-lessons-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+    .recipies-and-cook-lessons-heading {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-flow: column;
+      span {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .recipies-and-cook-lessons-heading-last-span {
+        margin-bottom: 0px;
+      }
+      .main-largest-heading {
         display: flex;
-        justify-content: center;
-        flex-flow: column;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .main-description {
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+    .recipies-and-cook-lessons {
+      .recipies-and-cook-lessons-wrapper {
         .recipies-and-cook-lessons-logo {
-            display:flex;
-            justify-content:center;
-            align-items: center;
-            margin-bottom: 100px;
         }
-        .recipies-and-cook-lessons-heading{
-            display:flex;
-            justify-content: flex-end;
-            align-items: center;
-            flex-flow: column;
-            span{
-                display:block;
-                margin-bottom: 5px;
-            }
-            .recipies-and-cook-lessons-heading-last-span{
-                margin-bottom: 50px;
+        .recipies-and-cook-lessons-heading {
+          text-align: center;
+        }
+        .main-largest-heading {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+@media (max-width: 1180px) {
+  .recipies-and-cook-lessons {
+    .recipies-and-cook-lessons-wrapper {
+      .recipies-and-cook-lessons-logo {
+      }
+      .recipies-and-cook-lessons-heading {
+        text-align: center;
+      }
+      .main-largest-heading {
+        font-size: 48px;
+      }
+    }
+  }
+}
+@media (max-width: 880px) {
+  .recipies-and-cook-lessons {
+    padding: 100px 0;
+    .recipies-and-cook-lessons-wrapper {
+      .recipies-and-cook-lessons-logo {
+        margin-bottom: 50px;
+      }
+      .recipies-and-cook-lessons-heading {
+        text-align: center;
+      }
+      .main-largest-heading {
+        font-size: 40px;
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .recipies-and-cook-lessons {
+    padding: 75px 0;
+    .recipies-and-cook-lessons-wrapper {
+      .recipies-and-cook-lessons-logo {
+        margin-bottom: 25px;
+      }
+      img{
+          height:200px;
+          width:300px;
+      }
+      .recipies-and-cook-lessons-heading {
+        text-align: center;
+        span {
+          margin-bottom: 2px;
+        }
+        .main-largest-heading {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+    .recipies-and-cook-lessons {
+        padding: 75px 0;
+        .recipies-and-cook-lessons-wrapper {
+          .recipies-and-cook-lessons-logo {
+            margin-bottom: 25px;
+          }
+          img{
+              height:125px;
+              width:200px;
+          }
+          .recipies-and-cook-lessons-heading {
+            text-align: center;
+            span {
+              margin-bottom: 2px;
             }
             .main-largest-heading {
-                display:flex;
-                justify-content: flex-end;
-                margin-bottom: 20px;
-                color:#fff;
+              font-size: 30px;
             }
-            .main-description{
-                text-align:center;
-                color:#fff;
-            }
-        }     
-    }
+          }
+        }
+      }
 }

@@ -371,6 +371,48 @@ table {
   position: absolute;
 }
 
+@media (max-width: 700px) {
+  .ice-creams-and-drinks-wrapper .inner-wrapper {
+    display: flex;
+  }
+  .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper .ice-creams-and-drinks-box {
+    margin: 0;
+    padding: 5px;
+  }
+  .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper .ice-creams-and-drinks-box .bg {
+    margin: 0;
+  }
+}
+@media (max-width: 464px) {
+  .ice-creams-and-drinks-wrapper .inner-wrapper {
+    display: flex;
+  }
+  .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper .ice-creams-and-drinks-box {
+    margin: 0;
+    padding: 5px 0;
+    height: 14%;
+    width: 100%;
+  }
+  .ice-creams-and-drinks-wrapper .inner-wrapper .ice-creams-and-drinks-boxes-wrapper .ice-creams-and-drinks-box .bg {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
 .sweets-foods-wrapper {
   padding: 100px 0;
   box-sizing: border-box;

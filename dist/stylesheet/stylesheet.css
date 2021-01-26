@@ -929,6 +929,26 @@ table {
   top: 50%;
 }
 
+@media (max-width: 768px) {
+  .baked-chicken-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .baked-chicken-boxes-wrapper .baked-chicken-box {
+    height: 600px;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .baked-chicken-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .baked-chicken-boxes-wrapper .baked-chicken-box {
+    height: 400px;
+    width: 100%;
+  }
+}
 .organic-produce-wrapper {
   padding: 50px 0;
   display: flex;

@@ -1,6 +1,6 @@
 .bakery-croissant{
     display:flex;
-    padding:100px 0;
+    padding:50px 0;
     .bakery-croissant-boxes-wrapper{
         display:flex;
         justify-content: center;
@@ -20,7 +20,8 @@
                 margin-bottom:100px;
             }
             span{
-                display:block;
+                display:flex;
+                flex-flow:column;
                 margin-bottom:5px;
                 &:nth-child(4){
                     margin-bottom: 0;
@@ -41,6 +42,71 @@
                 height:40px;
                 width:40px;
                 margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media(max-width:1260px){
+    .bakery-croissant{
+        .bakery-croissant-boxes-wrapper{
+            .bakery-croissant-box{
+            span{
+                margin-bottom:0px;                 
+                }
+            }
+        }
+    }
+}
+@media(max-width:830px){
+    .bakery-croissant{
+        padding:0;
+        .bakery-croissant-boxes-wrapper{
+            display:flex;
+            flex-flow: column;
+            .bakery-croissant-box{
+                width:100%;
+                height: 585px;
+                &:nth-child(2){
+                    height:355px;
+                }
+                .inner-wrapper{
+                    margin:0;
+                }
+                p{
+                    margin-bottom:40px;
+                }
+                span{
+                    margin-bottom:5px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:460px){
+    .bakery-croissant{
+        padding:0;
+        .bakery-croissant-boxes-wrapper{
+            display:flex;
+            flex-flow: column;
+            .bakery-croissant-box{
+                width:100%;
+                height:50%;
+                .inner-wrapper{
+                    margin:0;
+                }
+                p{
+                    margin-bottom:10px;
+                }
+                h2{
+                    margin-bottom:10px;
+                    font-size: 36px;
+                }
+                h4{
+                    margin-bottom: 10px;
+                }
+                svg{
+                    margin-bottom: 10px;
+                }           
             }
         }
     }

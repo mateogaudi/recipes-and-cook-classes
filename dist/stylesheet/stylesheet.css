@@ -421,6 +421,7 @@ table {
   display: flex;
   flex-wrap: wrap;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
   height: 405px;
   width: 33.33%;
@@ -428,39 +429,147 @@ table {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  display: flex;
   overflow: hidden;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images img,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box img {
+  width: 100%;
+  height: auto;
+}
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images h3,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images h4,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images p,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
   margin-bottom: 20px;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images h4,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4 {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images h3,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3 {
   text-align: center;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images h5,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h5 {
   border-bottom: 2px solid #000;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images a,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box a {
   color: black;
   text-decoration: none;
 }
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images span,
 .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
   display: block;
   text-align: center;
   margin-bottom: 5px;
 }
-.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box img {
-  width: 100%;
-  height: auto;
-}
 
+@media (max-width: 1160px) {
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images {
+    height: 405px;
+    width: 33%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images img {
+    height: 405px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
+    height: 405px;
+    width: 33%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
+    margin-bottom: 20px;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images {
+    height: 405px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
+    height: 255px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
+    margin-bottom: 10px;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
+    margin-bottom: 4px;
+  }
+}
+@media (max-width: 529px) {
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images {
+    height: 405px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
+    height: 255px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
+    margin-bottom: 10px;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box-images {
+    height: 405px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box {
+    height: 255px;
+    width: 100%;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h3,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box h4,
+.sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box p {
+    margin-bottom: 10px;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box a {
+    font-size: 12px;
+  }
+  .sweets-foods-wrapper .sweets-foods-boxes-wrapper .sweets-foods-box span {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
 .healthy-is-the-most-precious {
   display: flex;
   padding: 100px 0;

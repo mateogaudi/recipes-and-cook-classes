@@ -25,3 +25,12 @@ footer{
        }
     }
 }
+@media (max-width:495px){
+    footer{
+        .footer-wrapper{
+            .footer-item{
+                text-align: center;
+            }
+        }
+    }
+}

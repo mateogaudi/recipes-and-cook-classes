@@ -690,7 +690,7 @@ table {
 }
 .bakery-croissant {
   display: flex;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .bakery-croissant .bakery-croissant-boxes-wrapper {
   display: flex;
@@ -713,7 +713,8 @@ table {
   margin-bottom: 100px;
 }
 .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box span {
-  display: block;
+  display: flex;
+  flex-flow: column;
   margin-bottom: 5px;
 }
 .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box span:nth-child(4) {
@@ -736,6 +737,65 @@ table {
   margin-bottom: 20px;
 }
 
+@media (max-width: 1260px) {
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box span {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 830px) {
+  .bakery-croissant {
+    padding: 0;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box {
+    width: 100%;
+    height: 585px;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box:nth-child(2) {
+    height: 355px;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box .inner-wrapper {
+    margin: 0;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box p {
+    margin-bottom: 40px;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box span {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 460px) {
+  .bakery-croissant {
+    padding: 0;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box {
+    width: 100%;
+    height: 50%;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box .inner-wrapper {
+    margin: 0;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box p {
+    margin-bottom: 10px;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h2 {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box h4 {
+    margin-bottom: 10px;
+  }
+  .bakery-croissant .bakery-croissant-boxes-wrapper .bakery-croissant-box svg {
+    margin-bottom: 10px;
+  }
+}
 .learn-cooking-online {
   box-sizing: border-box;
   padding: 50px 0;
